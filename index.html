@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond The Bar</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Beyond The Bar</h1>
+    <p>Drama Korea tentang dunia hukum dan dinamika kehidupan pengacara</p>
+  </header>
+
+  <nav>
+    <a href="#sinopsis">Sinopsis</a>
+    <a href="#jadwal">Jadwal</a>
+    <a href="#aktor">Aktor</a>
+  </nav>
+ 
+  <div class="selection-divider"></div>
+
+  <div class="container">
+    <aside>
+      <h3>Poster Drama</h3>
+      <img src="/img/beyond-the-bar.jpg" alt="Poster Beyond The Bar" class="main-img">
+      <p><i>Drama inspiratif tentang moralitas, ambisi, dan kebenaran di ruang sidang.</i></p>
+    </aside>
+
+    <main>
+      <article id="sinopsis">
+  <h2>Sinopsis</h2>
+  <p>
+    <b>“Beyond The Bar”</b> adalah drama Korea yang mengisahkan kehidupan para pengacara di sebuah firma hukum ternama di Seoul. Cerita ini tidak hanya menyoroti ruang sidang dan strategi hukum yang rumit, tetapi juga perjuangan moral, ambisi pribadi, dan pilihan sulit yang harus diambil oleh setiap karakter ketika keadilan dan kepentingan pribadi saling bertentangan.
+  </p>
+  <p>
+    Yook Seok Hun (Lee Jin Wook) adalah kepala tim litigasi yang terkenal dingin, cerdas, dan nyaris tak pernah kalah di pengadilan. Namun di balik reputasinya yang sempurna, Seok Hun menyimpan trauma masa lalu yang membuatnya memandang hukum hanya sebagai permainan kekuasaan, bukan sarana keadilan. Segalanya mulai berubah ketika ia bertemu dengan Kang Hyo Min (Jung Chae Yeon), seorang pengacara muda idealis yang baru bergabung di firma tersebut.
+  </p>
+  <p>
+    Hyo Min percaya bahwa setiap kasus memiliki sisi kemanusiaan yang perlu diperjuangkan, bahkan ketika hukum tampak tidak berpihak. Pandangan dan keberaniannya sering kali membuatnya berselisih dengan Seok Hun, namun juga perlahan membuka sisi lain dari dirinya yang telah lama terkubur. Dalam perjalanan mereka, keduanya dihadapkan pada kasus besar yang melibatkan konglomerat berpengaruh, korupsi di lembaga pemerintahan, serta rahasia kelam yang mengancam menghancurkan reputasi firma mereka.
+  </p>
+  <p>
+    Dengan alur penuh ketegangan dan emosi, “Beyond The Bar” menggambarkan perjuangan antara kebenaran dan ambisi, serta batas tipis antara keadilan dan kepentingan pribadi. Drama ini tidak hanya menyajikan kisah hukum yang menegangkan, tetapi juga menelusuri sisi manusiawi dari mereka yang berdiri di balik palu hakim — tentang cinta, kejujuran, dan keberanian untuk menegakkan kebenaran, bahkan ketika dunia menentangnya.
+  </p>
+</article>
+
+      <article id="jadwal">
+        <h2>Jadwal Tayang</h2>
+        <table border="1" width="100%">
+          <tr>
+            <th>Hari / Platform</th>
+            <th>Tanggal / Jam</th>
+          </tr>
+          <tr>
+            <td>Netflix</td>
+            <td>2 Agustus 2025</td>
+          </tr>
+          <tr>
+            <td>Sabtu</td>
+            <td>20.40 WIB</td>
+          </tr>
+          <tr>
+            <td>Minggu</td>
+            <td>20.30 WIB</td>
+          </tr>
+        </table>
+      </article>
+
+      <article id="aktor">
+        <h2>Pemeran Utama</h2>
+        <div class="aktor-list">
+          <div class="aktor" onclick="openModal('leejinwook')">
+            <img src="/img/leejinwook.jpg" alt="Lee Jin Wook">
+            <p><b>Lee Jin Wook</b><br>Yook Seok Hun</p>
+          </div>
+          <div class="aktor" onclick="openModal('jungchaeyeon')">
+            <img src="/img/jungchaeyeon.jpg" alt="Jung Chae Yeon">
+            <p><b>Jung Chae Yeon</b><br>Kang Hyo Min</p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2025 Info Drama Korea | Dibuat untuk Submission Dicoding
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-img" src="" alt="">
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
