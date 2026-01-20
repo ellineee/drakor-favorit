@@ -34,6 +34,10 @@ nav {
   background-color: #34495e;
   flex-wrap: wrap;
   animation: fadeDown 1.2s ease;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 nav a {
